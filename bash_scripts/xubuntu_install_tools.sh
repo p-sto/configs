@@ -21,6 +21,8 @@ apt-get -y install virtualenv
 apt-get -y install vim
 apt-get -y install docker
 apt-get -y install rustc
+apt-get -y install postgresql
+apt-get -y install libpq-dev
 rm -rf rustup.sh
 apt install google-chrome-stable
 snap install pycharm-community --classic
